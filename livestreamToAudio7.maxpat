@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 78.0, 1467.0, 752.0 ],
+		"rect" : [ 41.0, 84.0, 1467.0, 752.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-80",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 734.0, 122.0, 150.0, 48.0 ],
+					"text" : "the volume is set by motion intensity,,, does not work as well as i'd like"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-64",
 					"maxclass" : "number",
