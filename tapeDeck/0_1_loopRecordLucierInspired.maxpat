@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1269.0, 753.0 ],
+		"rect" : [ 41.0, 84.0, 1269.0, 753.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -166,7 +166,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1051.0, 318.0, 64.0, 34.0 ],
-					"presentation_linecount" : 2,
 					"text" : "playback \n+ pause"
 				}
 
@@ -273,7 +272,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 672.0, 394.0, 183.0, 20.0 ],
+					"patching_rect" : [ 672.0, 394.0, 184.0, 20.0 ],
 					"text" : "+ Deck 1's initial start time offset "
 				}
 
@@ -544,7 +543,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 520.0, 175.0, 41.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "11000"
 				}
 
