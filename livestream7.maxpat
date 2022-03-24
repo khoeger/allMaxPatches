@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 69.0, 85.0, 1703.0, 960.0 ],
+		"rect" : [ 175.0, 322.0, 802.0, 960.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -554,14 +554,14 @@
 , 			{
 				"box" : 				{
 					"annotation" : "switch: turn on camera",
-					"comment" : "",
+					"comment" : "turn on camera (0-1? bang?)",
 					"hint" : "add toggle / switch to turn on camera",
 					"id" : "obj-81",
 					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 222.0, 58.5, 30.0, 30.0 ]
 				}
 

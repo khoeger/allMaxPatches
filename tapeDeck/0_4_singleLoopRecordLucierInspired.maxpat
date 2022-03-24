@@ -40,6 +40,54 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-75",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 75.0, 531.0, 150.0, 48.0 ],
+					"text" : "can I use the bang coming out of ubffer to clear the recording "
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-64",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 208.0, 305.315792083740234, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-55",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 208.0, 270.0, 35.0, 22.0 ],
+					"text" : "1000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-49",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 208.0, 344.0, 47.0, 22.0 ],
+					"text" : "size $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -81,7 +129,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 6,
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
-					"patching_rect" : [ 46.131585717201233, 393.000017046928406, 256.0, 64.0 ]
+					"patching_rect" : [ 40.131585717201233, 445.000017046928406, 256.0, 64.0 ]
 				}
 
 			}
@@ -130,17 +178,6 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 518.526301026344299, 474.0, 46.0, 22.0 ],
 					"text" : "qmetro"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-30",
-					"maxclass" : "meter~",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 728.473677277565002, 695.0, 80.0, 13.0 ]
 				}
 
 			}
@@ -432,7 +469,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 46.131585717201233, 337.894750952720642, 97.0, 20.0 ],
+					"patching_rect" : [ 34.131585717201233, 375.894750952720642, 97.0, 20.0 ],
 					"text" : "\"Tape Deck\""
 				}
 
@@ -717,7 +754,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 46.131585717201233, 361.0, 154.0, 22.0 ],
+					"patching_rect" : [ 40.131585717201233, 413.0, 154.0, 22.0 ],
 					"text" : "buffer~ bufferDeck1 1000 1"
 				}
 
@@ -890,7 +927,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-188", 0 ],
-					"midpoints" : [ 528.026301026344299, 455.0, 605.973677277565002, 455.0 ],
 					"order" : 0,
 					"source" : [ "obj-182", 0 ]
 				}
@@ -996,6 +1032,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-68", 0 ],
 					"source" : [ "obj-50", 0 ]
 				}
@@ -1005,6 +1048,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-70", 0 ],
 					"source" : [ "obj-52", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-64", 0 ],
+					"source" : [ "obj-55", 0 ]
 				}
 
 			}
@@ -1041,6 +1091,13 @@
 					"midpoints" : [ 738.166666666666629, 344.0, 528.026301026344299, 344.0 ],
 					"order" : 1,
 					"source" : [ "obj-60", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"source" : [ "obj-64", 0 ]
 				}
 
 			}
@@ -1122,6 +1179,14 @@
 					"destination" : [ "obj-52", 0 ],
 					"midpoints" : [ 609.666666666666515, 162.0, 793.5, 162.0 ],
 					"order" : 2,
+					"source" : [ "obj-72", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-55", 0 ],
+					"order" : 6,
 					"source" : [ "obj-72", 0 ]
 				}
 
