@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1468.0, 753.0 ],
+		"rect" : [ 78.0, 414.0, 1468.0, 753.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,47 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 465.184201717376709, 459.0, 50.0, 22.0 ],
+					"text" : "bang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 119.0, 447.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 175.131585717201233, 446.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-75",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 75.0, 531.0, 150.0, 48.0 ],
+					"patching_rect" : [ 41.131585717201233, 562.0, 153.0, 48.0 ],
 					"text" : "can I use the bang coming out of ubffer to clear the recording "
 				}
 
@@ -59,18 +94,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 208.0, 305.315792083740234, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-55",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 208.0, 270.0, 35.0, 22.0 ],
-					"text" : "1000"
 				}
 
 			}
@@ -94,19 +117,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 474.0, 600.0, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-84",
-					"linecount" : 13,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 836.0, 573.0, 153.0, 186.0 ],
-					"text" : "Problem: Sound sytem/volume shuts off once it's time for the buffer to be overwritten\n\nDid not get to\n3. Pause\n4. Playback Sound\n5. Pause\n2. Repeat\n\nJust trying to write over buffer again and again"
+					"patching_rect" : [ 487.0, 574.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -116,7 +127,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 364.473677277565002, 474.0, 150.0, 20.0 ],
+					"patching_rect" : [ 370.0, 483.0, 150.0, 20.0 ],
 					"text" : "prepare to trigger sound"
 				}
 
@@ -129,7 +140,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 6,
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
-					"patching_rect" : [ 40.131585717201233, 445.000017046928406, 256.0, 64.0 ]
+					"patching_rect" : [ 40.131585717201233, 494.0, 256.0, 64.0 ]
 				}
 
 			}
@@ -188,7 +199,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 484.526301026344299, 691.0, 80.0, 13.0 ]
+					"patching_rect" : [ 628.0, 628.0, 80.0, 13.0 ]
 				}
 
 			}
@@ -234,8 +245,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 304.0, 655.0, 179.723677277565002, 20.0 ],
-					"text" : "2. Record sound (2 Channels)"
+					"patching_rect" : [ 327.75, 656.0, 179.723677277565002, 20.0 ],
+					"text" : "2. Record sound (1 Channel)"
 				}
 
 			}
@@ -337,11 +348,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-26",
-					"linecount" : 5,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 940.5, 168.947370052337646, 44.0, 75.0 ],
+					"patching_rect" : [ 918.5, 168.947370052337646, 66.0, 48.0 ],
 					"text" : "playback / recording pause"
 				}
 
@@ -372,10 +383,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-127",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 836.0, 204.0, 96.0, 20.0 ],
+					"patching_rect" : [ 836.0, 204.0, 77.666666666666629, 34.0 ],
 					"text" : "+ wait for pause"
 				}
 
@@ -493,8 +505,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 643.0, 175.0, 35.0, 22.0 ],
-					"text" : "1000"
+					"patching_rect" : [ 643.0, 175.0, 41.0, 22.0 ],
+					"text" : "11000"
 				}
 
 			}
@@ -505,19 +517,19 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 370.0, 174.0, 35.0, 22.0 ],
-					"text" : "1000"
+					"patching_rect" : [ 370.0, 174.0, 41.0, 22.0 ],
+					"text" : "11000"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-44",
-					"linecount" : 5,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 737.903507630030163, 175.0, 44.0, 75.0 ],
+					"patching_rect" : [ 723.166666666666515, 175.0, 58.736840963363647, 62.0 ],
 					"text" : "recording / playback pause"
 				}
 
@@ -565,18 +577,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 306.0, 55.0, 194.0, 34.0 ],
 					"text" : "Earworms: 15- 30 seconds\nMantras: 60 / 5.5 ~ 11 seconds"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-9",
-					"linecount" : 8,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 895.0, 41.0, 218.0, 117.0 ],
-					"text" : "Learned:\nYoutube - https://www.youtube.com/watch?v=QH3hlJ1aCHI He uses poke b/c he can use a sawtooth wave to repeat things\n\nWhen time to rerecord, sound turns off... WHY?"
 				}
 
 			}
@@ -695,18 +695,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1184.0, 175.0, 85.0, 34.0 ],
 					"text" : "PLAY BACK RECORDING"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-20",
-					"linecount" : 5,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 31.0, 223.999998450279236, 100.5, 75.0 ],
-					"text" : "store sounds\nin buffer buf1, record 2 channels of 11 seconds"
 				}
 
 			}
@@ -858,6 +846,23 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-20", 1 ],
+					"midpoints" : [ 184.631585717201233, 438.0, 159.5, 438.0 ],
+					"order" : 1,
+					"source" : [ "obj-11", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"order" : 0,
+					"source" : [ "obj-11", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 3 ],
 					"midpoints" : [ 1285.5, 606.0, 1512.166666666666515, 606.0 ],
 					"order" : 0,
@@ -934,6 +939,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-25", 1 ],
+					"midpoints" : [ 528.026301026344299, 453.0, 505.684201717376709, 453.0 ],
+					"order" : 2,
+					"source" : [ "obj-182", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
 					"order" : 1,
 					"source" : [ "obj-182", 0 ]
@@ -1002,6 +1016,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
+					"midpoints" : [ 528.026301026344299, 567.0, 496.5, 567.0 ],
 					"order" : 1,
 					"source" : [ "obj-41", 0 ]
 				}
@@ -1019,6 +1034,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-56", 0 ],
+					"midpoints" : [ 541.026301026344299, 576.0, 538.526301026344299, 576.0 ],
 					"source" : [ "obj-41", 1 ]
 				}
 
@@ -1033,6 +1049,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
+					"midpoints" : [ 217.5, 399.0, 49.631585717201233, 399.0 ],
 					"source" : [ "obj-49", 0 ]
 				}
 
@@ -1053,16 +1070,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-64", 0 ],
-					"source" : [ "obj-55", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"midpoints" : [ 538.526301026344299, 642.0, 495.0, 642.0, 495.0, 687.0, 494.026301026344299, 687.0 ],
-					"order" : 1,
+					"midpoints" : [ 538.526301026344299, 615.0, 637.5, 615.0 ],
+					"order" : 0,
 					"source" : [ "obj-56", 0 ]
 				}
 
@@ -1070,8 +1080,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
-					"midpoints" : [ 538.526301026344299, 641.0, 518.973677277565002, 641.0 ],
-					"order" : 0,
+					"midpoints" : [ 538.526301026344299, 642.0, 518.973677277565002, 642.0 ],
+					"order" : 1,
 					"source" : [ "obj-56", 0 ]
 				}
 
@@ -1105,6 +1115,16 @@
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
 					"midpoints" : [ 379.5, 264.0, 738.166666666666629, 264.0 ],
+					"order" : 0,
+					"source" : [ "obj-66", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-64", 0 ],
+					"midpoints" : [ 379.5, 291.0, 217.5, 291.0 ],
+					"order" : 1,
 					"source" : [ "obj-66", 0 ]
 				}
 
@@ -1179,14 +1199,6 @@
 					"destination" : [ "obj-52", 0 ],
 					"midpoints" : [ 609.666666666666515, 162.0, 793.5, 162.0 ],
 					"order" : 2,
-					"source" : [ "obj-72", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-55", 0 ],
-					"order" : 6,
 					"source" : [ "obj-72", 0 ]
 				}
 
