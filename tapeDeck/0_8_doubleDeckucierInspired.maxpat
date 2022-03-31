@@ -41,10 +41,12 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-35",
+					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 360.783145308494568, 15.0, 150.0, 20.0 ]
+					"patching_rect" : [ 710.0, 33.0, 572.0, 103.0 ],
+					"text" : "Modifications - No recording / playback pause\nLouder speaker - lead to feedback loop?\n\nIdeas: \n- Make follow movement\n- Make trigger by threshold sound <-- SAH\n"
 				}
 
 			}
@@ -358,11 +360,11 @@
 				"box" : 				{
 					"id" : "obj-82",
 					"maxclass" : "newobj",
-					"numinlets" : 4,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 498.333330273628235, 575.0, 121.0, 22.0 ],
-					"text" : "recordAndPlayDeck1"
+					"patching_rect" : [ 498.333330273628235, 575.0, 162.0, 22.0 ],
+					"text" : "recordAndPlayDeck1_trigger"
 				}
 
 			}
@@ -423,18 +425,6 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 611.333337545394897, 395.333336472511292, 29.5, 22.0 ],
 					"text" : "+"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-39",
-					"linecount" : 7,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 680.0, 34.5, 421.0, 103.0 ],
-					"text" : "Not use bang to clear recording. But follow this flow of information based off of metronome.\n2.\n3.\n4.\n5. \n2 .... repeat"
 				}
 
 			}
@@ -576,7 +566,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 986.5, 168.947370052337646, 29.5, 22.0 ],
-					"text" : "500"
+					"text" : "0"
 				}
 
 			}
@@ -706,7 +696,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 784.0, 175.0, 29.5, 22.0 ],
-					"text" : "500"
+					"text" : "0"
 				}
 
 			}
@@ -1253,13 +1243,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-82", 3 ],
-					"source" : [ "obj-59", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"midpoints" : [ 738.166666666666629, 513.0, 819.833330273628235, 513.0 ],
 					"order" : 0,
@@ -1511,7 +1494,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-82", 1 ],
-					"midpoints" : [ 609.666666666666515, 513.0, 541.833330273628235, 513.0 ],
+					"midpoints" : [ 609.666666666666515, 513.0, 650.833330273628235, 513.0 ],
 					"source" : [ "obj-79", 0 ]
 				}
 
@@ -1597,16 +1580,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
 					"midpoints" : [ 546.736825466156006, 489.0, 854.833330273628235, 489.0 ],
-					"order" : 0,
-					"source" : [ "obj-94", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-82", 2 ],
-					"midpoints" : [ 546.736825466156006, 561.0, 575.833330273628235, 561.0 ],
-					"order" : 1,
 					"source" : [ "obj-94", 0 ]
 				}
 
@@ -1620,7 +1593,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "recordAndPlayDeck1.maxpat",
+				"name" : "recordAndPlayDeck1_trigger.maxpat",
 				"bootpath" : "~/OneDrive/Documents/Projects/installation/maxPatches_Katarina/tapeDeck",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
