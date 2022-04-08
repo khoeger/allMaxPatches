@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1092.0, 705.0 ],
+		"rect" : [ 41.0, 84.0, 1092.0, 691.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -89,7 +89,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 241.68649360537529, 693.0, 117.0, 62.0 ],
-					"presentation_linecount" : 4,
 					"text" : "negative signal at an amplitude\nof maximum change\nin rgb values"
 				}
 
@@ -108,11 +107,11 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Line signal out, amplitude of the max avg. rgb change ",
-					"comment" : "Line signal out, amplitude of the max avg. rgb change ",
-					"hint" : "Line signal out, amplitude of the max avg. rgb change ",
+					"annotation" : "Negative Line signal out, amplitude of the max avg. rgb change ",
+					"comment" : "Negative Line signal out, amplitude of the max avg. rgb change ",
+					"hint" : "Negative Line signal out, amplitude of the max avg. rgb change ",
 					"id" : "obj-17",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -127,7 +126,7 @@
 					"comment" : "Line signal out, amplitude of the max avg. rgb change ",
 					"hint" : "Line signal out, amplitude of the max avg. rgb change\n",
 					"id" : "obj-16",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -138,14 +137,14 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "-1 for negative line creation",
+					"annotation" : "-1 signal for negative line creation",
 					"comment" : "-1 for negative line creation",
 					"id" : "obj-15",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 600.0, 51.0, 30.0, 30.0 ],
 					"varname" : "Negative_CalculateRGBChangeSignal"
 				}
@@ -157,7 +156,7 @@
 					"comment" : "High Output Scale Value",
 					"hint" : "Outputs High Scale Value to patcher",
 					"id" : "obj-14",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -173,7 +172,7 @@
 					"comment" : "low output scale value ",
 					"hint" : "Outputs Low Output Scale Value to patcher",
 					"id" : "obj-12",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -201,11 +200,11 @@
 					"comment" : "4-plane video matrix",
 					"hint" : "Outputs Video Matrix to patcher",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 158.68649360537529, 51.0, 30.0, 30.0 ],
 					"varname" : "VideoMatrixIn_CalculateRGBChangeSignal"
 				}
@@ -622,9 +621,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }
