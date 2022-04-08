@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 2,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1092.0, 705.0 ],
+		"rect" : [ 34.0, 79.0, 1652.0, 842.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 727.692377090454102, 1586.153997421264648, 150.0, 89.0 ],
+					"patching_rect" : [ 727.692377090454102, 1586.153997421264648, 150.0, 87.0 ],
 					"text" : "Mac Mini / Motu\n3 UL ,\n4 UR, \n5 LL, \n6 LR\n"
 				}
 
@@ -510,7 +510,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 539.564044296741486, 1586.089938521385193, 73.026316523551941, 48.0 ],
+					"patching_rect" : [ 539.564044296741486, 1586.089938521385193, 73.026316523551941, 47.0 ],
 					"text" : "Laptop: \n1 right, \n2 left"
 				}
 
@@ -581,7 +581,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 761.25, 380.821800827980042, 85.294118881225586, 34.0 ],
+					"patching_rect" : [ 761.25, 380.821800827980042, 85.294118881225586, 33.0 ],
 					"text" : "for \nnegative lines "
 				}
 
@@ -605,7 +605,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 892.0, 325.821800827980042, 39.0, 34.0 ],
+					"patching_rect" : [ 892.0, 325.821800827980042, 39.0, 33.0 ],
 					"text" : "max\namp"
 				}
 
@@ -617,7 +617,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 841.131585717201233, 325.821800827980042, 42.0, 34.0 ],
+					"patching_rect" : [ 841.131585717201233, 325.821800827980042, 42.0, 33.0 ],
 					"text" : "min\namp"
 				}
 
@@ -655,8 +655,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 892.0, 375.643601655960083, 32.0, 22.0 ],
-					"text" : "0.25"
+					"patching_rect" : [ 892.0, 375.643601655960083, 29.5, 22.0 ],
+					"text" : "1."
 				}
 
 			}
@@ -792,7 +792,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 723.289157450199127, 325.821800827980042, 105.421685099601746, 48.0 ],
+					"patching_rect" : [ 723.289157450199127, 325.821800827980042, 105.421685099601746, 47.0 ],
 					"text" : "maximum recorded signal amplituded"
 				}
 
@@ -804,7 +804,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 630.120505213737488, 325.821800827980042, 92.168672561645508, 48.0 ],
+					"patching_rect" : [ 630.120505213737488, 325.821800827980042, 94.0, 47.0 ],
 					"text" : "minimum recorded signal amplituded"
 				}
 
@@ -938,7 +938,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 428.0, 325.821800827980042, 78.0, 48.0 ],
+					"patching_rect" : [ 428.0, 325.821800827980042, 78.0, 47.0 ],
 					"text" : "cutoff Frequency\nlowpass filter"
 				}
 
@@ -962,7 +962,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1104.232424527406693, 476.315792083740234, 150.0, 62.0 ],
+					"patching_rect" : [ 1104.232424527406693, 476.315792083740234, 150.0, 60.0 ],
 					"text" : "look into limiter?\nif statement?\neverything greater than this  = this, no outliers!"
 				}
 
@@ -974,7 +974,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 978.685153931379318, 325.821800827980042, 328.892863571643829, 144.0 ],
+					"patching_rect" : [ 978.685153931379318, 325.821800827980042, 328.892863571643829, 141.0 ],
 					"text" : "TO DOs\n1 - test paramters for duration\n2 - low pass filter\n3 - scale mic input\n4 - test the range for the gain \n5 - gen object into patcher to monitor signasl \n6 - what does the space sound like when it gets very loud \n\nGet people to walk through. Lots of people to walk through\n"
 				}
 
@@ -997,7 +997,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 235.928570628166199, 163.999997973442078, 187.0, 117.0 ],
+					"patching_rect" : [ 235.928570628166199, 163.999997973442078, 187.0, 114.0 ],
 					"text" : "want to make abstraction - how long does it need to be to feel abstract so that the playback does not distract people with the sound of their own voice but points their atttention at the system instead of the contents of the signal"
 				}
 
@@ -1009,7 +1009,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 83.928570628166199, 279.426228523254395, 178.571428298950195, 48.0 ],
+					"patching_rect" : [ 83.928570628166199, 279.426228523254395, 178.571428298950195, 47.0 ],
 					"text" : "shorter sounds more intersting texture -- interesting result vs. \nsomething keyed into thesis"
 				}
 
@@ -1021,7 +1021,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 83.928570628166199, 234.821426331996918, 150.0, 48.0 ],
+					"patching_rect" : [ 83.928570628166199, 234.821426331996918, 150.0, 47.0 ],
 					"text" : "variable duration could make you lose the effect of the rcording"
 				}
 
@@ -1033,7 +1033,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -1.0, 349.5, 150.0, 200.0 ],
+					"patching_rect" : [ -1.0, 349.5, 150.0, 194.0 ],
 					"text" : "shorter\nduration...\n\nfaster response\nfor feedback\nquicker build up\n\nhow to choose \nduration?\n\nmakes things \nsound less\nconversational\n"
 				}
 
@@ -1045,7 +1045,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.684201717376709, 591.0, 93.0, 144.0 ],
+					"patching_rect" : [ 3.684201717376709, 591.0, 93.0, 141.0 ],
 					"text" : "Figure out how to limit the maximum mic input somehow so that this is safe\n\nscale~ ?\nlook into sig~ as well"
 				}
 
@@ -1207,7 +1207,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 544.578333377838135, 325.821800827980042, 69.277105450630188, 34.0 ],
+					"patching_rect" : [ 544.578333377838135, 325.821800827980042, 69.277105450630188, 33.0 ],
 					"text" : "Cut signal in half"
 				}
 
@@ -1244,7 +1244,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1637.0, 350.0, 150.0, 34.0 ],
+					"patching_rect" : [ 1637.0, 350.0, 150.0, 33.0 ],
 					"text" : "how much motion to expect max"
 				}
 
@@ -1414,7 +1414,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1228.732424527406693, 938.0, 90.0, 34.0 ],
+					"patching_rect" : [ 1228.732424527406693, 938.0, 90.0, 33.0 ],
 					"text" : "max avg rgb change"
 				}
 
@@ -1547,7 +1547,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1911.200968384742737, 669.270270109176636, 49.0, 34.0 ],
+					"patching_rect" : [ 1911.200968384742737, 669.270270109176636, 49.0, 33.0 ],
 					"text" : "bottom right"
 				}
 
@@ -1559,7 +1559,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1715.563062071800232, 669.270270109176636, 49.0, 34.0 ],
+					"patching_rect" : [ 1715.563062071800232, 669.270270109176636, 49.0, 33.0 ],
 					"text" : "bottom left"
 				}
 
@@ -1571,7 +1571,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1530.729728877544403, 669.270270109176636, 34.684684753417969, 34.0 ],
+					"patching_rect" : [ 1530.729728877544403, 669.270270109176636, 34.684684753417969, 33.0 ],
 					"text" : "top\nright"
 				}
 
@@ -1583,7 +1583,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1332.439631670713425, 675.270270109176636, 42.792792856693268, 34.0 ],
+					"patching_rect" : [ 1332.439631670713425, 675.270270109176636, 42.792792856693268, 33.0 ],
 					"text" : "top \nleft"
 				}
 
@@ -1713,7 +1713,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1258.180292129516602, 342.233823180198669, 59.315607070922852, 34.0 ],
+					"patching_rect" : [ 1258.180292129516602, 342.233823180198669, 59.315607070922852, 33.0 ],
 					"text" : "camera on"
 				}
 
@@ -1773,7 +1773,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1490.180286407470703, 335.233823180198669, 59.836068153381348, 34.0 ],
+					"patching_rect" : [ 1490.180286407470703, 335.233823180198669, 59.836068153381348, 33.0 ],
 					"text" : "height\npx"
 				}
 
@@ -1797,7 +1797,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1416.163894653320312, 335.233823180198669, 59.836068153381348, 34.0 ],
+					"patching_rect" : [ 1416.163894653320312, 335.233823180198669, 59.836068153381348, 33.0 ],
 					"text" : "width in \npx"
 				}
 
@@ -1821,7 +1821,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1337.135210514068604, 328.233823180198669, 59.836068153381348, 48.0 ],
+					"patching_rect" : [ 1337.135210514068604, 328.233823180198669, 59.836068153381348, 47.0 ],
 					"text" : "ms between\nsamples"
 				}
 
@@ -2057,7 +2057,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 120.684201717376709, 92.0, 276.0, 34.0 ],
+					"patching_rect" : [ 120.684201717376709, 92.0, 276.0, 33.0 ],
 					"text" : "Features\n- Fixed recording & playback durations"
 				}
 
@@ -2081,7 +2081,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.798240760962017, 337.31579053401947, 59.0, 34.0 ],
+					"patching_rect" : [ 187.798240760962017, 337.31579053401947, 59.0, 33.0 ],
 					"text" : "playback\nduration"
 				}
 
@@ -2141,7 +2141,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 86.684201717376709, 337.31579053401947, 81.285714149475098, 34.0 ],
+					"patching_rect" : [ 86.684201717376709, 337.31579053401947, 81.285714149475098, 33.0 ],
 					"text" : "recording\nduration ???"
 				}
 
@@ -2153,7 +2153,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 344.684201717376709, 337.31579053401947, 63.0, 34.0 ],
+					"patching_rect" : [ 344.684201717376709, 337.31579053401947, 63.0, 33.0 ],
 					"text" : "initial set \ngain"
 				}
 
@@ -2268,7 +2268,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 446.0, 19.0, 628.0, 282.0 ],
+					"patching_rect" : [ 446.0, 19.0, 628.0, 275.0 ],
 					"text" : "Your Embodied Presence and its Inherent Impact on the Relations Existing in your Present Environment  \n\nYour presence has an impact whether you realize it or not. You are one thing out of many things that make up the environment, creating multiple relations that link us with our surroundings. Through these relations, we help complete the current and future states of the items and experiences that constitute our present environments.\n\nAt minimum, our presence leaves visual and auditory impressions on our environments. Each person in a space is perceptible to other entities within this space with the ability to sense changes in waves of sound or light. A person’s physical presence can leave audible and visible traces in the surroundings beyond oneself. Our embodied existence creates unavoidable and potentially unintended impacts on current and future happenings within our direct environments.\n\nModern technology allows for the real-time monitoring of changes in a space. Cameras and microphones can pick up the audio and visual changes from a variety of locations. These audio and visual changes are data that can be artistically reimagined as aesthetic information. This repurposed information can be broadcast back into the environment from which it was gathered using speakers and projectors in real-time. It is one way to examine and demonstrate how relations morph and create the future of a space.\n\nThis work provides a participant an opportunity to reexamine the audio and visual relations in ones’ surroundings, highlighting relations between presence and the relations that are changed through embodied existence. "
 				}
 
@@ -2280,7 +2280,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 164.0, 19.0, 280.0, 62.0 ],
+					"patching_rect" : [ 164.0, 19.0, 280.0, 60.0 ],
 					"text" : "Goal:\n- Take double tape deck\n- Break output into 4 speakers\n- Determine speaker to use with quadrants code"
 				}
 
@@ -3756,42 +3756,38 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "calculateTapeDeckCycleDuration2.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Projects/installation/maxPatches_Katarina/tapeDeck",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "recordAndPlayDeck1_v2.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Projects/installation/maxPatches_Katarina/tapeDeck",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "recordAndPlayDeck2_v2.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Projects/installation/maxPatches_Katarina/tapeDeck",
+				"bootpath" : "~/Documents/allMaxPatches/tapeDeck",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "livestream7.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Projects/installation/maxPatches_Katarina/tapeDeck",
+				"bootpath" : "~/Documents/allMaxPatches/tapeDeck",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "recordAndPlayDeck1_v2.maxpat",
+				"bootpath" : "~/Documents/allMaxPatches/tapeDeck",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "recordAndPlayDeck2_v2.maxpat",
+				"bootpath" : "~/Documents/allMaxPatches/tapeDeck",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "toggleFullscreenOnESC.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Projects/installation/maxPatches_Katarina/tapeDeck",
+				"bootpath" : "~/Documents/allMaxPatches/tapeDeck",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "jit.pass.mxe64",
-				"type" : "mx64"
 			}
  ],
 		"autosave" : 0
