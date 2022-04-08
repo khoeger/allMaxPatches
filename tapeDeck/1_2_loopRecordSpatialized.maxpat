@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 2,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1092.0, 705.0 ],
+		"rect" : [ 34.0, 79.0, 1311.0, 824.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,66 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-28",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 946.10249799489975, 1127.0, 66.0, 22.0 ],
+					"text" : "cycle~ 770"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 170.184201717376709, 1172.0, 66.0, 22.0 ],
+					"text" : "cycle~ 440"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 710.10249799489975, 1127.0, 66.0, 22.0 ],
+					"text" : "cycle~ 660"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 413.251798570156097, 1123.0, 66.0, 22.0 ],
+					"text" : "cycle~ 550"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 125.184201717376709, 1127.0, 66.0, 22.0 ],
+					"text" : "cycle~ 440"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-56",
 					"maxclass" : "scope~",
@@ -327,7 +387,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 727.692377090454102, 1451.153997421264648, 150.0, 48.0 ],
+					"patching_rect" : [ 727.692377090454102, 1451.153997421264648, 150.0, 47.0 ],
 					"text" : "Mac Mini / Motu\n\n"
 				}
 
@@ -378,8 +438,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 417.5, 728.930020451545715, 72.0, 22.0 ],
-					"text" : "lores~ 8000"
+					"patching_rect" : [ 413.184200167655945, 728.930020451545715, 72.0, 22.0 ],
+					"text" : "lores~ 2000"
 				}
 
 			}
@@ -429,7 +489,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 539.564044296741486, 1451.089938521385193, 73.026316523551941, 48.0 ],
+					"patching_rect" : [ 539.564044296741486, 1451.089938521385193, 73.026316523551941, 47.0 ],
 					"text" : "Laptop: \n1 right, \n2 left"
 				}
 
@@ -477,7 +537,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 761.25, 380.821800827980042, 85.294118881225586, 34.0 ],
+					"patching_rect" : [ 761.25, 380.821800827980042, 85.294118881225586, 33.0 ],
 					"text" : "for \nnegative lines "
 				}
 
@@ -501,7 +561,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 892.0, 325.821800827980042, 39.0, 34.0 ],
+					"patching_rect" : [ 892.0, 325.821800827980042, 39.0, 33.0 ],
 					"text" : "max\namp"
 				}
 
@@ -513,7 +573,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 841.131585717201233, 325.821800827980042, 42.0, 34.0 ],
+					"patching_rect" : [ 841.131585717201233, 325.821800827980042, 42.0, 33.0 ],
 					"text" : "min\namp"
 				}
 
@@ -551,8 +611,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 892.0, 375.643601655960083, 29.5, 22.0 ],
-					"text" : "0.5"
+					"patching_rect" : [ 892.0, 375.643601655960083, 32.0, 22.0 ],
+					"text" : "0.25"
 				}
 
 			}
@@ -563,8 +623,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 841.131585717201233, 375.821800827980042, 29.5, 22.0 ],
-					"text" : "0.1"
+					"patching_rect" : [ 841.131585717201233, 375.821800827980042, 32.0, 22.0 ],
+					"text" : "0.05"
 				}
 
 			}
@@ -626,7 +686,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 723.289157450199127, 325.821800827980042, 105.421685099601746, 48.0 ],
+					"patching_rect" : [ 723.289157450199127, 325.821800827980042, 105.421685099601746, 47.0 ],
 					"text" : "maximum recorded signal amplituded"
 				}
 
@@ -638,7 +698,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 630.120505213737488, 325.821800827980042, 94.0, 48.0 ],
+					"patching_rect" : [ 630.120505213737488, 325.821800827980042, 94.0, 47.0 ],
 					"text" : "minimum recorded signal amplituded"
 				}
 
@@ -772,7 +832,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 428.0, 325.821800827980042, 78.0, 48.0 ],
+					"patching_rect" : [ 428.0, 325.821800827980042, 78.0, 47.0 ],
 					"text" : "cutoff Frequency\nlowpass filter"
 				}
 
@@ -796,7 +856,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1104.232424527406693, 476.315792083740234, 150.0, 62.0 ],
+					"patching_rect" : [ 1104.232424527406693, 476.315792083740234, 150.0, 60.0 ],
 					"text" : "look into limiter?\nif statement?\neverything greater than this  = this, no outliers!"
 				}
 
@@ -808,7 +868,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 978.685153931379318, 325.821800827980042, 328.892863571643829, 144.0 ],
+					"patching_rect" : [ 978.685153931379318, 325.821800827980042, 328.892863571643829, 141.0 ],
 					"text" : "TO DOs\n1 - test paramters for duration\n2 - low pass filter\n3 - scale mic input\n4 - test the range for the gain \n5 - gen object into patcher to monitor signasl \n6 - what does the space sound like when it gets very loud \n\nGet people to walk through. Lots of people to walk through\n"
 				}
 
@@ -831,7 +891,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 235.928570628166199, 163.999997973442078, 187.0, 117.0 ],
+					"patching_rect" : [ 235.928570628166199, 163.999997973442078, 187.0, 114.0 ],
 					"text" : "want to make abstraction - how long does it need to be to feel abstract so that the playback does not distract people with the sound of their own voice but points their atttention at the system instead of the contents of the signal"
 				}
 
@@ -843,7 +903,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 83.928570628166199, 279.426228523254395, 178.571428298950195, 48.0 ],
+					"patching_rect" : [ 83.928570628166199, 279.426228523254395, 178.571428298950195, 47.0 ],
 					"text" : "shorter sounds more intersting texture -- interesting result vs. \nsomething keyed into thesis"
 				}
 
@@ -855,7 +915,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 83.928570628166199, 234.821426331996918, 150.0, 48.0 ],
+					"patching_rect" : [ 83.928570628166199, 234.821426331996918, 150.0, 47.0 ],
 					"text" : "variable duration could make you lose the effect of the rcording"
 				}
 
@@ -867,7 +927,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -1.0, 349.5, 150.0, 200.0 ],
+					"patching_rect" : [ -1.0, 349.5, 150.0, 194.0 ],
 					"text" : "shorter\nduration...\n\nfaster response\nfor feedback\nquicker build up\n\nhow to choose \nduration?\n\nmakes things \nsound less\nconversational\n"
 				}
 
@@ -879,7 +939,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.684201717376709, 591.0, 93.0, 144.0 ],
+					"patching_rect" : [ 3.684201717376709, 591.0, 93.0, 141.0 ],
 					"text" : "Figure out how to limit the maximum mic input somehow so that this is safe\n\nscale~ ?\nlook into sig~ as well"
 				}
 
@@ -902,8 +962,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 129.611637830734253, 727.930020451545715, 72.0, 22.0 ],
-					"text" : "lores~ 8000"
+					"patching_rect" : [ 124.611637830734253, 727.930020451545715, 72.0, 22.0 ],
+					"text" : "lores~ 2000"
 				}
 
 			}
@@ -914,7 +974,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 544.578333377838135, 325.821800827980042, 69.277105450630188, 34.0 ],
+					"patching_rect" : [ 544.578333377838135, 325.821800827980042, 69.277105450630188, 33.0 ],
 					"text" : "Cut signal in half"
 				}
 
@@ -938,7 +998,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1637.0, 350.0, 150.0, 34.0 ],
+					"patching_rect" : [ 1637.0, 350.0, 150.0, 33.0 ],
 					"text" : "how much motion to expect max"
 				}
 
@@ -974,7 +1034,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1911.200968384742737, 669.270270109176636, 49.0, 34.0 ],
+					"patching_rect" : [ 1911.200968384742737, 669.270270109176636, 49.0, 33.0 ],
 					"text" : "bottom right"
 				}
 
@@ -986,7 +1046,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1715.563062071800232, 669.270270109176636, 49.0, 34.0 ],
+					"patching_rect" : [ 1715.563062071800232, 669.270270109176636, 49.0, 33.0 ],
 					"text" : "bottom left"
 				}
 
@@ -998,7 +1058,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1530.729728877544403, 669.270270109176636, 34.684684753417969, 34.0 ],
+					"patching_rect" : [ 1530.729728877544403, 669.270270109176636, 34.684684753417969, 33.0 ],
 					"text" : "top\nright"
 				}
 
@@ -1010,7 +1070,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1332.439631670713425, 675.270270109176636, 42.792792856693268, 34.0 ],
+					"patching_rect" : [ 1332.439631670713425, 675.270270109176636, 42.792792856693268, 33.0 ],
 					"text" : "top \nleft"
 				}
 
@@ -1140,7 +1200,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1258.180292129516602, 342.233823180198669, 59.315607070922852, 34.0 ],
+					"patching_rect" : [ 1258.180292129516602, 342.233823180198669, 59.315607070922852, 33.0 ],
 					"text" : "camera on"
 				}
 
@@ -1200,7 +1260,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1490.180286407470703, 335.233823180198669, 59.836068153381348, 34.0 ],
+					"patching_rect" : [ 1490.180286407470703, 335.233823180198669, 59.836068153381348, 33.0 ],
 					"text" : "height\npx"
 				}
 
@@ -1224,7 +1284,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1416.163894653320312, 335.233823180198669, 59.836068153381348, 34.0 ],
+					"patching_rect" : [ 1416.163894653320312, 335.233823180198669, 59.836068153381348, 33.0 ],
 					"text" : "width in \npx"
 				}
 
@@ -1248,7 +1308,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1337.135210514068604, 328.233823180198669, 59.836068153381348, 48.0 ],
+					"patching_rect" : [ 1337.135210514068604, 328.233823180198669, 59.836068153381348, 47.0 ],
 					"text" : "ms between\nsamples"
 				}
 
@@ -1484,7 +1544,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 120.684201717376709, 92.0, 276.0, 34.0 ],
+					"patching_rect" : [ 120.684201717376709, 92.0, 276.0, 33.0 ],
 					"text" : "Features\n- Fixed recording & playback durations"
 				}
 
@@ -1508,7 +1568,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.798240760962017, 337.31579053401947, 59.0, 34.0 ],
+					"patching_rect" : [ 187.798240760962017, 337.31579053401947, 59.0, 33.0 ],
 					"text" : "playback\nduration"
 				}
 
@@ -1568,7 +1628,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 86.684201717376709, 337.31579053401947, 81.285714149475098, 34.0 ],
+					"patching_rect" : [ 86.684201717376709, 337.31579053401947, 81.285714149475098, 33.0 ],
 					"text" : "recording\nduration ???"
 				}
 
@@ -1580,7 +1640,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 344.684201717376709, 337.31579053401947, 63.0, 34.0 ],
+					"patching_rect" : [ 344.684201717376709, 337.31579053401947, 63.0, 33.0 ],
 					"text" : "initial set \ngain"
 				}
 
@@ -1617,7 +1677,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 45.0, 182.0, 24.0, 24.0 ]
+					"patching_rect" : [ 45.0, 192.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1695,7 +1755,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 446.0, 19.0, 628.0, 282.0 ],
+					"patching_rect" : [ 446.0, 19.0, 628.0, 275.0 ],
 					"text" : "Your Embodied Presence and its Inherent Impact on the Relations Existing in your Present Environment  \n\nYour presence has an impact whether you realize it or not. You are one thing out of many things that make up the environment, creating multiple relations that link us with our surroundings. Through these relations, we help complete the current and future states of the items and experiences that constitute our present environments.\n\nAt minimum, our presence leaves visual and auditory impressions on our environments. Each person in a space is perceptible to other entities within this space with the ability to sense changes in waves of sound or light. A person’s physical presence can leave audible and visible traces in the surroundings beyond oneself. Our embodied existence creates unavoidable and potentially unintended impacts on current and future happenings within our direct environments.\n\nModern technology allows for the real-time monitoring of changes in a space. Cameras and microphones can pick up the audio and visual changes from a variety of locations. These audio and visual changes are data that can be artistically reimagined as aesthetic information. This repurposed information can be broadcast back into the environment from which it was gathered using speakers and projectors in real-time. It is one way to examine and demonstrate how relations morph and create the future of a space.\n\nThis work provides a participant an opportunity to reexamine the audio and visual relations in ones’ surroundings, highlighting relations between presence and the relations that are changed through embodied existence. "
 				}
 
@@ -1707,7 +1767,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 164.0, 19.0, 280.0, 62.0 ],
+					"patching_rect" : [ 164.0, 19.0, 280.0, 60.0 ],
 					"text" : "Goal:\n- Take double tape deck\n- Break output into 4 speakers\n- Determine speaker to use with quadrants code"
 				}
 
@@ -1779,6 +1839,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-115", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
@@ -1970,7 +2037,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-174", 1 ],
-					"midpoints" : [ 437.5, 582.0, 237.0, 582.0, 237.0, 624.0, 165.611637830734253, 624.0 ],
+					"midpoints" : [ 437.5, 582.0, 237.0, 582.0, 237.0, 624.0, 160.611637830734253, 624.0 ],
 					"source" : [ "obj-171", 0 ]
 				}
 
@@ -1985,24 +2052,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-188", 0 ],
-					"midpoints" : [ 139.111637830734253, 762.0, 155.684201717376709, 762.0 ],
-					"order" : 3,
-					"source" : [ "obj-174", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-218", 0 ],
-					"order" : 4,
-					"source" : [ "obj-174", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-281", 0 ],
-					"midpoints" : [ 139.111637830734253, 1155.0, 422.751798570156097, 1155.0 ],
+					"midpoints" : [ 134.111637830734253, 762.0, 155.684201717376709, 762.0 ],
 					"order" : 2,
 					"source" : [ "obj-174", 0 ]
 				}
@@ -2011,7 +2061,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-310", 0 ],
-					"midpoints" : [ 139.111637830734253, 1155.0, 955.60249799489975, 1155.0 ],
+					"midpoints" : [ 134.111637830734253, 1155.0, 955.60249799489975, 1155.0 ],
 					"order" : 0,
 					"source" : [ "obj-174", 0 ]
 				}
@@ -2020,7 +2070,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-61", 0 ],
-					"midpoints" : [ 139.111637830734253, 1155.0, 719.60249799489975, 1155.0 ],
+					"midpoints" : [ 134.111637830734253, 1155.0, 719.60249799489975, 1155.0 ],
 					"order" : 1,
 					"source" : [ "obj-174", 0 ]
 				}
@@ -2186,7 +2236,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 2 ],
 					"midpoints" : [ 901.5, 600.0, 939.0, 600.0, 939.0, 789.0, 1401.75225146611524, 789.0 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-248", 0 ]
 				}
 
@@ -2195,7 +2245,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 2 ],
 					"midpoints" : [ 901.5, 600.0, 939.0, 600.0, 939.0, 780.0, 1599.99722798665357, 780.0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-248", 0 ]
 				}
 
@@ -2204,6 +2254,15 @@
 				"patchline" : 				{
 					"destination" : [ "obj-25", 2 ],
 					"midpoints" : [ 901.5, 600.0, 939.0, 600.0, 939.0, 780.0, 1787.270269294579748, 780.0 ],
+					"order" : 1,
+					"source" : [ "obj-248", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 2 ],
+					"midpoints" : [ 901.5, 600.0, 939.0, 600.0, 939.0, 780.0, 1982.270269294579748, 780.0 ],
 					"order" : 0,
 					"source" : [ "obj-248", 0 ]
 				}
@@ -2247,7 +2306,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
 					"midpoints" : [ 850.631585717201233, 600.0, 939.0, 600.0, 939.0, 789.0, 1365.085584799448725, 789.0 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-250", 0 ]
 				}
 
@@ -2256,7 +2315,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 1 ],
 					"midpoints" : [ 850.631585717201233, 600.0, 939.0, 600.0, 939.0, 780.0, 1563.330561319987055, 780.0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-250", 0 ]
 				}
 
@@ -2265,6 +2324,15 @@
 				"patchline" : 				{
 					"destination" : [ "obj-25", 1 ],
 					"midpoints" : [ 850.631585717201233, 600.0, 939.0, 600.0, 939.0, 780.0, 1750.603602627913233, 780.0 ],
+					"order" : 1,
+					"source" : [ "obj-250", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 1 ],
+					"midpoints" : [ 850.631585717201233, 600.0, 939.0, 600.0, 939.0, 780.0, 1945.603602627913233, 780.0 ],
 					"order" : 0,
 					"source" : [ "obj-250", 0 ]
 				}
@@ -2288,7 +2356,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 3 ],
 					"midpoints" : [ 770.694002628326416, 534.0, 939.0, 534.0, 939.0, 780.0, 1438.418918132781982, 780.0 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-273", 0 ]
 				}
 
@@ -2297,7 +2365,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 3 ],
 					"midpoints" : [ 770.694002628326416, 534.0, 939.0, 534.0, 939.0, 780.0, 1636.663894653320312, 780.0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-273", 0 ]
 				}
 
@@ -2306,8 +2374,24 @@
 				"patchline" : 				{
 					"destination" : [ "obj-25", 3 ],
 					"midpoints" : [ 770.694002628326416, 534.0, 939.0, 534.0, 939.0, 780.0, 1823.93693596124649, 780.0 ],
+					"order" : 1,
+					"source" : [ "obj-273", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 3 ],
+					"midpoints" : [ 770.694002628326416, 534.0, 939.0, 534.0, 939.0, 780.0, 2018.93693596124649, 780.0 ],
 					"order" : 0,
 					"source" : [ "obj-273", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-310", 0 ],
+					"source" : [ "obj-28", 0 ]
 				}
 
 			}
@@ -2322,7 +2406,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-275", 3 ],
-					"midpoints" : [ 422.751798570156097, 1437.0, 672.953851139545463, 1437.0 ],
+					"midpoints" : [ 422.751798570156097, 1248.0, 414.0, 1248.0, 414.0, 1437.0, 672.953851139545463, 1437.0 ],
 					"order" : 0,
 					"source" : [ "obj-281", 0 ]
 				}
@@ -2357,25 +2441,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-218", 0 ],
-					"midpoints" : [ 427.0, 753.0, 420.0, 753.0, 420.0, 1155.0, 134.86343640089035, 1155.0 ],
-					"order" : 4,
-					"source" : [ "obj-286", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-281", 0 ],
-					"order" : 3,
-					"source" : [ "obj-286", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-284", 0 ],
-					"midpoints" : [ 427.0, 763.0, 443.0, 763.0 ],
+					"midpoints" : [ 422.684200167655945, 763.0, 443.0, 763.0 ],
 					"order" : 2,
 					"source" : [ "obj-286", 0 ]
 				}
@@ -2384,7 +2451,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-310", 0 ],
-					"midpoints" : [ 427.0, 1155.0, 955.60249799489975, 1155.0 ],
+					"midpoints" : [ 422.684200167655945, 1155.0, 955.60249799489975, 1155.0 ],
 					"order" : 0,
 					"source" : [ "obj-286", 0 ]
 				}
@@ -2393,7 +2460,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-61", 0 ],
-					"midpoints" : [ 427.0, 1155.0, 719.60249799489975, 1155.0 ],
+					"midpoints" : [ 422.684200167655945, 1155.0, 719.60249799489975, 1155.0 ],
 					"order" : 1,
 					"source" : [ "obj-286", 0 ]
 				}
@@ -2699,7 +2766,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-174", 0 ],
-					"midpoints" : [ 96.184201717376709, 624.0, 139.111637830734253, 624.0 ],
+					"midpoints" : [ 96.184201717376709, 624.0, 134.111637830734253, 624.0 ],
 					"order" : 1,
 					"source" : [ "obj-63", 0 ]
 				}
@@ -2785,6 +2852,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-218", 0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"midpoints" : [ 681.631585717201233, 535.0, 681.631585717201233, 535.0 ],
 					"source" : [ "obj-73", 0 ]
@@ -2808,6 +2882,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-281", 0 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-162", 0 ],
 					"midpoints" : [ 394.684200167655945, 633.0, 561.814810395240784, 633.0 ],
 					"order" : 0,
@@ -2818,7 +2899,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-286", 0 ],
-					"midpoints" : [ 394.684200167655945, 714.0, 427.0, 714.0 ],
+					"midpoints" : [ 394.684200167655945, 714.0, 422.684200167655945, 714.0 ],
 					"order" : 1,
 					"source" : [ "obj-97", 0 ]
 				}
@@ -2826,50 +2907,46 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "avgRGBChangeSignal.maxpat",
+				"bootpath" : "~/Documents/allMaxPatches/tapeDeck",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "calculateTapeDeckCycleDuration2.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Projects/installation/maxPatches_Katarina/tapeDeck",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "recordAndPlayDeck1_v2.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Projects/installation/maxPatches_Katarina/tapeDeck",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "recordAndPlayDeck2_v2.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Projects/installation/maxPatches_Katarina/tapeDeck",
+				"bootpath" : "~/Documents/allMaxPatches/tapeDeck",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "livestream7.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Projects/installation/maxPatches_Katarina/tapeDeck",
+				"bootpath" : "~/Documents/allMaxPatches/tapeDeck",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "recordAndPlayDeck1_v2.maxpat",
+				"bootpath" : "~/Documents/allMaxPatches/tapeDeck",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "recordAndPlayDeck2_v2.maxpat",
+				"bootpath" : "~/Documents/allMaxPatches/tapeDeck",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "toggleFullscreenOnESC.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Projects/installation/maxPatches_Katarina/tapeDeck",
+				"bootpath" : "~/Documents/allMaxPatches/tapeDeck",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "avgRGBChangeSignal.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Projects/installation/maxPatches_Katarina/tapeDeck",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jit.pass.mxe64",
-				"type" : "mx64"
 			}
  ],
 		"autosave" : 0
