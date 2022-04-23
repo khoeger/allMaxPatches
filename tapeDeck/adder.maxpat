@@ -165,7 +165,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 133.0, 337.0, 50.0, 35.0 ],
-					"text" : "0.000033"
+					"text" : "0.000011"
 				}
 
 			}
@@ -350,7 +350,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 437.0, 102.0, 35.0, 22.0 ],
-					"text" : "3000"
+					"text" : "9000"
 				}
 
 			}
@@ -384,7 +384,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 188.0, 68.0, 59.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "target gain"
 				}
 
