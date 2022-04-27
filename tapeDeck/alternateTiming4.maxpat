@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 337.0, 79.0, 1489.0, 875.0 ],
+		"rect" : [ 337.0, 79.0, 1151.0, 875.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -333,7 +333,7 @@
 					"format" : 6,
 					"id" : "obj-9",
 					"maxclass" : "flonum",
-					"maximum" : 0.45,
+					"maximum" : 1.0,
 					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
