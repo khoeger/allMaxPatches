@@ -40,6 +40,54 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "",
+					"id" : "obj-18",
+					"index" : 4,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 882.0, 1445.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-13",
+					"index" : 2,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 449.0, 1445.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 813.0, 943.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 449.0, 942.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-59",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -88,7 +136,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-52",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -100,7 +148,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-51",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -125,7 +173,7 @@
 					"comment" : "duration in ms of recording",
 					"hint" : "recording Duration",
 					"id" : "obj-46",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -141,7 +189,7 @@
 					"comment" : "gain of recorded signal, 0.0 - 1.0",
 					"hint" : "gain of recorded signal, 0.0 - 1.0",
 					"id" : "obj-44",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -157,11 +205,11 @@
 					"comment" : "bang",
 					"hint" : "bang",
 					"id" : "obj-38",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 1473.0, 192.0, 30.0, 30.0 ],
 					"varname" : "bang_recordIn"
 				}
@@ -809,7 +857,16 @@
 				"patchline" : 				{
 					"destination" : [ "obj-122", 0 ],
 					"midpoints" : [ 418.5, 930.0, 284.5, 930.0 ],
-					"order" : 1,
+					"order" : 2,
+					"source" : [ "obj-117", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"midpoints" : [ 418.5, 927.5, 458.5, 927.5 ],
+					"order" : 0,
 					"source" : [ "obj-117", 0 ]
 				}
 
@@ -817,7 +874,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-117", 0 ]
 				}
 
@@ -835,6 +892,15 @@
 				"patchline" : 				{
 					"destination" : [ "obj-52", 0 ],
 					"order" : 1,
+					"source" : [ "obj-119", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"midpoints" : [ 842.5, 930.0, 822.5, 930.0 ],
+					"order" : 2,
 					"source" : [ "obj-119", 0 ]
 				}
 
@@ -936,6 +1002,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"midpoints" : [ 458.5, 1205.0, 458.5, 1205.0 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"midpoints" : [ 1482.5, 225.0, 1482.5, 225.0 ],
 					"source" : [ "obj-38", 0 ]
@@ -955,6 +1029,14 @@
 					"destination" : [ "obj-12", 0 ],
 					"midpoints" : [ 616.0, 225.0, 616.0, 225.0 ],
 					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"midpoints" : [ 822.5, 1205.5, 891.5, 1205.5 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
@@ -1054,9 +1136,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }
