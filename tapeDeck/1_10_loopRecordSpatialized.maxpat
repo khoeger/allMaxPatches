@@ -40,6 +40,41 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 164.881585717201233, 2790.333348870277405, 137.0, 22.0 ],
+					"text" : "toggleFullscreenOnESC"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 181.052756905555725, 2820.959974467754364, 179.0, 20.0 ],
+					"text" : "switch livestream view size"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-345",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 164.881585717201233, 2845.959974467754364, 203.0, 22.0 ],
+					"text" : "jit.window birdsEyeCam @floating 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-367",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -7149,6 +7184,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-345", 0 ],
+					"midpoints" : [ 331.447192788124084, 2775.0, 150.0, 2775.0, 150.0, 2832.0, 174.381585717201233, 2832.0 ],
+					"order" : 2,
+					"source" : [ "obj-216", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-222", 1 ],
 					"midpoints" : [ 959.150364071130753, 3343.0, 956.650364071130753, 3343.0 ],
 					"source" : [ "obj-218", 0 ]
@@ -9146,6 +9190,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-345", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-195", 0 ],
 					"midpoints" : [ 1084.499997437000275, 2015.75, 918.587046464283958, 2015.75 ],
 					"source" : [ "obj-60", 0 ]
@@ -9658,7 +9709,14 @@
 			"inherited_shortname" : 1
 		}
 ,
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "toggleFullscreenOnESC.maxpat",
+				"bootpath" : "~/Documents/allMaxPatches/tapeDeck",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
 		"autosave" : 0
 	}
 
