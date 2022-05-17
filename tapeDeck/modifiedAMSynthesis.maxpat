@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 310.0, 132.0, 1270.0, 797.0 ],
+		"rect" : [ 461.0, 132.0, 1270.0, 797.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -268,7 +268,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 587.0, 131.5, 29.0, 29.0 ],
 					"varname" : "modulationIndex"
 				}
@@ -293,8 +293,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 587.0, 481.0, 47.0, 22.0 ],
-					"text" : "*~ 0.75"
+					"patching_rect" : [ 587.0, 481.0, 29.5, 22.0 ],
+					"text" : "*~"
 				}
 
 			}
@@ -305,8 +305,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 509.0, 481.0, 58.0, 22.0 ],
-					"text" : "sig~ 0.25"
+					"patching_rect" : [ 509.0, 481.0, 31.0, 22.0 ],
+					"text" : "sig~"
 				}
 
 			}
