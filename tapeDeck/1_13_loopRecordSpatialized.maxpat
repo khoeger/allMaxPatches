@@ -2161,7 +2161,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 4699.113952904939651, 4347.165137767791748, 29.5, 22.0 ],
-					"text" : "4."
+					"text" : "0."
 				}
 
 			}
@@ -2173,7 +2173,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 4574.988343119621277, 4347.165137767791748, 29.5, 22.0 ],
-					"text" : "3."
+					"text" : "0."
 				}
 
 			}
@@ -2185,19 +2185,20 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 4449.488343119621277, 4347.165137767791748, 29.5, 22.0 ],
-					"text" : "2."
+					"text" : "0."
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-494",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4325.590455442667007, 4347.165137767791748, 29.5, 22.0 ],
-					"text" : "1."
+					"patching_rect" : [ 4325.590455442667007, 4347.165137767791748, 29.5, 49.0 ],
+					"text" : "0.313131"
 				}
 
 			}
@@ -2442,7 +2443,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 3309.602112323045731, 4348.0, 29.5, 22.0 ],
-					"text" : "4."
+					"text" : "0."
 				}
 
 			}
@@ -2454,7 +2455,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 3185.476502537727356, 4348.0, 29.5, 22.0 ],
-					"text" : "3."
+					"text" : "0."
 				}
 
 			}
@@ -2466,19 +2467,20 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 3059.976502537727356, 4348.0, 29.5, 22.0 ],
-					"text" : "2."
+					"text" : "0."
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-470",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2936.078614860773087, 4348.0, 29.5, 22.0 ],
-					"text" : "1."
+					"patching_rect" : [ 2936.078614860773087, 4348.0, 29.5, 49.0 ],
+					"text" : "0.313131"
 				}
 
 			}
@@ -2723,7 +2725,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2058.125609785318375, 4349.0, 29.5, 22.0 ],
-					"text" : "4."
+					"text" : "0."
 				}
 
 			}
@@ -2735,7 +2737,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1934.0, 4349.0, 29.5, 22.0 ],
-					"text" : "3."
+					"text" : "0."
 				}
 
 			}
@@ -2747,19 +2749,20 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1808.5, 4349.0, 29.5, 22.0 ],
-					"text" : "2."
+					"text" : "0."
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-418",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1684.602112323045731, 4349.0, 29.5, 22.0 ],
-					"text" : "1."
+					"patching_rect" : [ 1684.602112323045731, 4349.0, 29.5, 49.0 ],
+					"text" : "0.313131"
 				}
 
 			}
@@ -5553,7 +5556,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 802.125609785318375, 4348.0, 29.5, 22.0 ],
-					"text" : "4."
+					"text" : "0."
 				}
 
 			}
@@ -5565,7 +5568,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 678.0, 4348.0, 29.5, 22.0 ],
-					"text" : "3."
+					"text" : "0."
 				}
 
 			}
@@ -5577,19 +5580,20 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 552.5, 4348.0, 29.5, 22.0 ],
-					"text" : "2."
+					"text" : "0."
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-161",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 428.602112323045731, 4348.0, 29.5, 22.0 ],
-					"text" : "1."
+					"patching_rect" : [ 428.602112323045731, 4348.0, 29.5, 49.0 ],
+					"text" : "0.313131"
 				}
 
 			}
@@ -7081,7 +7085,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1013.448832094669342, 439.178199172019958, 29.5, 22.0 ],
-					"text" : "117"
+					"text" : "157"
 				}
 
 			}
